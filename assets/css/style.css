@@ -22,15 +22,10 @@ h1{
 	padding: 10px;
 }
 
-
-.rules{
-	word-wrap:break-word;
-}
-
 .jewelcontainer{
 	background-color: transparent;
 	width:500px;
-	height:125px;
+	height:px;
 	padding:auto;
 	margin:auto;
 	margin-top:10px;
