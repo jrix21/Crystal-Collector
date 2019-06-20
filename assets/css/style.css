@@ -23,9 +23,10 @@ h1{
 }
 
 .jewelcontainer{
-	background-color: transparent;
+	background-color: black;
+	opacity: .7;
 	width:500px;
-	height:px;
+	height:125px;
 	padding:auto;
 	margin:auto;
 	margin-top:10px;

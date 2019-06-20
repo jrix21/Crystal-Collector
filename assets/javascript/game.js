@@ -13,8 +13,9 @@ function startGame(){
 	$(".random").html(randomNumber);
 	
 	$(".jewel").each(function(){
-		$(this).attr("data-value", Math.floor(Math.random()*10));
+		$(this).attr("data-value", Math.floor(Math.random()*10+1));
 	})
+}
 
 	$(".jewel").on("click", function(){
 		console.log(this)
@@ -37,10 +38,9 @@ function startGame(){
 		$(".wins").text("Wins: "+" "+wins);
 		reset();
 		}
-	})
-	
-}
+	});
 
+	
 function reset(){
 	yourTotal=0;
 $(".totalscorenumber").html(yourTotal);
